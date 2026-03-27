@@ -1,0 +1,15 @@
+{
+	"servers": {
+		"srini-mcp": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+				"run",
+				"--",
+				"python",
+				"C:\\Users\\SRINI465\\Desktop\\SriniMcp\\server.py"
+			]
+		}
+	},
+	"inputs": []
+}
