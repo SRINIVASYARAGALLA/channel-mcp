@@ -1,6 +1,6 @@
 import os
 from mcp.server.fastmcp import FastMCP
-from .loader import load_markdown
+from mcpserver.loader import load_markdown
 from datetime import datetime
 import logging
 
@@ -8,7 +8,7 @@ import logging
 SKILL_PATH = os.getenv("SKILL_PATH")
 
 # Load skill content
-skill_content = load_markdown(SKILL_PATH)
+skill_content = load_markdown()
 
 if not skill_content:
     raise RuntimeError("skill.md could not be loaded")
