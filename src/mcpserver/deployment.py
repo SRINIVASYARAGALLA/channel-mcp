@@ -5,7 +5,7 @@ from datetime import datetime
 import logging
 
 # Configurable file path
-SKILL_PATH = os.getenv("SKILL_PATH", "./config/user-permissions/skill.md")
+SKILL_PATH = os.getenv("SKILL_PATH")
 
 # Load skill content
 skill_content = load_markdown(SKILL_PATH)
