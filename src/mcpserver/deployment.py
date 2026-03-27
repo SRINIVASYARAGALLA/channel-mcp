@@ -1,6 +1,6 @@
 import os
 from mcp.server.fastmcp import FastMCP
-from loader import load_markdown
+from .loader import load_markdown
 from datetime import datetime
 import logging
 
